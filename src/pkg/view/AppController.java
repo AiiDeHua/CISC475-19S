@@ -99,7 +99,7 @@ public class AppController {
 //		String python_path = null;
 		//set the python path accordingly
 		try {
-			Process p = Runtime.getRuntime().exec("/Library/Frameworks/Python.framework/Versions/3.7/bin/python3 475.py");
+			Process p = Runtime.getRuntime().exec("python3 475.py");
 			BufferedReader stdInput = new BufferedReader(new InputStreamReader(p.getInputStream()));
 			// read the output from the command
 			System.out.println("Here is the standard output of the command:\n");
