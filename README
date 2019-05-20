@@ -1,0 +1,17 @@
+README
+
+this is a prototype to conduct text-mining search engine
+
+requirment
+java
+python 3+	#default python is python3+
+
+package import
+jieba
+bibtexpraser
+gensim
+
+how to run:
+click import button to select bib file
+enter keyword or sentance to search
+it would automatically rank the bib files and write in output.bib file
