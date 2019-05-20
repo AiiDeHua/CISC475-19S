@@ -12,6 +12,7 @@ bibtexpraser
 gensim
 
 how to run:
+compile and run the src/pkg/MainApp.java
 click import button to select bib file
 enter keyword or sentance to search
 it would automatically rank the bib files and write in output.bib file
