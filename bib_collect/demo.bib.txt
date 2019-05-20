@@ -1,0 +1,61 @@
+Exported References will appear here ...
+trying to export 250 references ... The following entries could not be exported:
+PMID 9688432
+
+... END OF LIST WITH BAD ENTRIES
+
+% 14657064 
+@Article{pmid14657064,
+   Author="Pepine, C. J.  and Handberg, E. M.  and Cooper-DeHoff, R. M.  and Marks, R. G.  and Kowey, P.  and Messerli, F. H.  and Mancia, G.  and Cangiano, J. L.  and Garcia-Barreto, D.  and Keltai, M.  and Erdine, S.  and Bristol, H. A.  and Kolb, H. R.  and Bakris, G. L.  and Cohen, J. D.  and Parmley, W. W. ",
+   Title="{{A} calcium antagonist vs a non-calcium antagonist hypertension treatment strategy for patients with coronary artery disease. {T}he {I}nternational {V}erapamil-{T}randolapril {S}tudy ({I}{N}{V}{E}{S}{T}): a randomized controlled trial}",
+   Journal="JAMA",
+   Year="2003",
+   Volume="290",
+   Number="21",
+   Pages="2805--2816",
+   Month="Dec",
+   Abstract={Despite evidence of efficacy of antihypertensive agents in treating hypertensive patients, safety and efficacy of antihypertensive agents for coronary artery disease (CAD) have been discerned only from subgroup analyses in large trials.\\ To compare mortality and morbidity outcomes in patients with hypertension and CAD treated with a calcium antagonist strategy (CAS) or a non-calcium antagonist strategy (NCAS).\\ Randomized, open label, blinded end point study of 22 576 hypertensive CAD patients aged 50 years or older, which was conducted September 1997 to February 2003 at 862 sites in 14 countries.\\ Patients were randomly assigned to either CAS (verapamil sustained release) or NCAS (atenolol). Strategies specified dose and additional drug regimens. Trandolapril and/or hydrochlorothiazide was administered to achieve blood pressure goals according to guidelines from the sixth report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC VI) of less than 140 mm Hg (systolic) and less than 90 mm Hg (diastolic); and less than 130 mm Hg (systolic) and less than 85 mm Hg (diastolic) if diabetes or renal impairment was present. Trandolapril was also recommended for patients with heart failure, diabetes, or renal impairment.\\ Primary: first occurrence of death (all cause), nonfatal myocardial infarction, or nonfatal stroke; other: cardiovascular death, angina, adverse experiences, hospitalizations, and blood pressure control at 24 months.\\ At 24 months, in the CAS group, 6391 patients (81.5%) were taking verapamil sustained release; 4934 (62.9%) were taking trandolapril; and 3430 (43.7%) were taking hydrochlorothiazide. In the NCAS group, 6083 patients (77.5%) were taking atenolol; 4733 (60.3%) were taking hydrochlorothiazide; and 4113 (52.4%) were taking trandolapril. After a follow-up of 61 835 patient-years (mean, 2.7 years per patient), 2269 patients had a primary outcome event with no statistically significant difference between treatment strategies (9.93% in CAS and 10.17% in NCAS; relative risk [RR], 0.98; 95% confidence interval [CI], 0.90-1.06). Two-year blood pressure control was similar between groups. The JNC VI blood pressure goals were achieved by 65.0% (systolic) and 88.5% (diastolic) of CAS and 64.0% (systolic) and 88.1% (diastolic) of NCAS patients. A total of 71.7% of CAS and 70.7% of NCAS patients achieved a systolic blood pressure of less than 140 mm Hg and diastolic blood pressure of less than 90 mm Hg.\\ The verapamil-trandolapril-based strategy was as clinically effective as the atenolol-hydrochlorothiazide-based strategy in hypertensive CAD patients.},
+   Note={[DOI:\href{https://dx.doi.org/10.1001/jama.290.21.2805}{10.1001/jama.290.21.2805}] [PubMed:\href{https://www.ncbi.nlm.nih.gov/pubmed/14657064}{14657064}] }
+}
+
+% 14508839 
+@Article{pmid14508839,
+   Author="Li, C. I.  and Malone, K. E.  and Weiss, N. S.  and Boudreau, D. M.  and Cushing-Haugen, K. L.  and Daling, J. R. ",
+   Title="{{R}elation between use of antihypertensive medications and risk of breast carcinoma among women ages 65-79 years}",
+   Journal="Cancer",
+   Year="2003",
+   Volume="98",
+   Number="7",
+   Pages="1504--1513",
+   Month="Oct",
+   Abstract={Limited data are available regarding the incidence of breast carcinoma among users of relatively recently introduced forms of antihypertensive therapy. Although it has been suggested that women who have taken calcium channel blockers (CCBs) have an increased risk and that women who have taken angiotensin-I-converting enzyme (ACE) inhibitors have a decreased risk, currently, no conclusions can be drawn.\\ A population-based case-control study of women ages 65-79 years was conducted in western Washington State. The responses of 975 women who were diagnosed with invasive breast carcinoma during 1997-1999 were compared with the responses of 1007 women in a control group. Associations between use of different types of antihypertensive medications and breast carcinoma incidence were evaluated using logistic regression.\\ Overall, women who had ever used CCBs, beta-blockers, or ACE inhibitors did not have an altered risk of breast carcinoma relative to women who had never used antihypertensive medications. Although the use of immediate-release CCBs, thiazide diuretics, and potassium-sparing diuretics was associated with modestly increased risks of breast carcinoma (odds ratio [OR], 1.5; 95% confidence interval [95% CI], 1.0-2.1; OR, 1.4; 95% CI, 1.1-1.8; and OR, 1.6; 95% CI, 1.2-2.1, respectively), the absence of any trend in the size of excess risk with increasing duration or with current versus former use of these agents argues for a cautious interpretation.\\ The use of particular types of antihypertensive medications, including immediate-release CCBs and certain diuretics, may increase the risk of breast carcinoma among older women. Additional studies are warranted to clarify these potential associations. Cancer 2003;98:1504-13.},
+   Note={[DOI:\href{https://dx.doi.org/10.1002/cncr.11663}{10.1002/cncr.11663}] [PubMed:\href{https://www.ncbi.nlm.nih.gov/pubmed/14508839}{14508839}] }
+}
+
+% 12860866 
+@Article{pmid12860866,
+   Author="Dens, J. A.  and Desmet, W. J.  and Coussement, P.  and De Scheerder, I. K.  and Kostopoulos, K.  and Kerdsinchai, P.  and Supanantaroek, C.  and Piessens, J. H. ",
+   Title="{{L}ong term effects of nisoldipine on the progression of coronary atherosclerosis and the occurrence of clinical events: the {N}{I}{C}{O}{L}{E} study}",
+   Journal="Heart",
+   Year="2003",
+   Volume="89",
+   Number="8",
+   Pages="887--892",
+   Month="Aug",
+   Abstract={Earlier angiographic studies have suggested that calcium antagonists may prevent the formation of new coronary lesions and the progression of minimal lesions. Conversely, a meta-analysis suggested that these drugs may increase cardiovascular mortality and morbidity in patients with coronary heart disease.\\ To investigate whether nisoldipine retards the progression of coronary atherosclerosis or reduces the occurrence of clinical events.\\ The NICOLE study (NIsoldipine in COronary artery disease in LEuven) is a single centre, randomised, double blind, placebo controlled trial with coronary angiography at baseline, six months, and three years of follow up.\\ 826 patients who had undergone successful coronary angioplasty were randomised to nisoldipine 40 mg once daily or placebo. The intention to treat and per protocol population consisted of 819 and 578 patients, respectively.\\ In the per protocol population, 625 of the nisoldipine treated and 655 of the placebo treated patients (NS) showed angiographic progression in at least one coronary arterial segment, defined as an increase in diameter stenosis of > or = 13%. The average minimum luminal diameter of the non-dilated lesions decreased by 0.163 mm and 0.167 mm in the nisoldipine and placebo groups, respectively (NS). The respective numbers of new lesions detected were 7 and 13 (NS). In the intention to treat population, the rates of death, stroke, and acute myocardial infarction were similar in both treatment groups. However, nisoldipine use was associated with fewer revascularisation procedures and thus the percentage of patients with any clinical event was lower (44.6% v 52.6%, p = 0.02).\\ Nisoldipine has no demonstrable effect on the angiographic progression of coronary atherosclerosis or the risk of major cardiovascular events but its use is associated with fewer revascularisation procedures.},
+   Note={[PubMed Central:\href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1767780}{PMC1767780}] [PubMed:\href{https://www.ncbi.nlm.nih.gov/pubmed/2242520}{2242520}] }
+}
+
+% 12770652 
+@Article{pmid12770652,
+   Author="Weksler, N.  and Klein, M.  and Szendro, G.  and Rozentsveig, V.  and Schily, M.  and Brill, S.  and Tarnopolski, A.  and Ovadia, L.  and Gurman, G. M. ",
+   Title="{{T}he dilemma of immediate preoperative hypertension: to treat and operate, or to postpone surgery?}",
+   Journal="J Clin Anesth",
+   Year="2003",
+   Volume="15",
+   Number="3",
+   Pages="179--183",
+   Month="May",
+   Abstract={To evaluate the efficacy and complications of immediate preoperative reduction of arterial blood pressure (BP) in patients with well-controlled hypertension but with diastolic blood pressure (DBP) between 110 and 130 mmHg on arrival at the operating room (OR).\\ Prospective, randomized, large-sample study.\\ University-affiliated, 550-bed community hospital.\\ 989 patients with well-controlled hypertension, who were scheduled for surgery, and who had no previous myocardial infarction, unstable or severe angina pectoris, renal failure, pregnancy induced hypertension, left ventricular hypertrophy, previous coronary revascularization, aortic stenosis, preoperative dysrhythmias, conduction defects, or stroke.\\ Patients with DBP between 110 and 130 mmHg were randomly allocated to two groups: 400 patients in the control group and 589 patients serving as the study group. The control group had their surgery postponed and they remained in hospital for BP control, and the study patients received 10 mg of nifedipine intranasally delivered. The patients were observed for cardiovascular and neurological complications during the intraoperative period and over the first three postoperative days.\\ The two groups were similar in age, gender, type of surgery, duration of anesthesia, and intraoperative fluid administration. There were no statistically significant differences in postoperative complications. The hospitalization time was considerable shorter in the study group than in the control group.\\ Immediate preoperative reduction of DBP with intranasal nifedipine is safe in patients with well-controlled arterial hypertension but they presented with severe to very severe hypertension for patients in the OR. We were able to avoid unnecessary surgery postponement and attendant costs.},
+   Note={[PubMed:\href{https://www.ncbi.nlm.nih.gov/pubmed/12770652}{12770652}] }
+}

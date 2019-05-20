@@ -1,7 +1,19 @@
 package pkg.view;
 
-
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.util.Scanner;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -70,25 +82,85 @@ public class AppController {
 	 */
 	@FXML
 	private void handleSearch() {
-		String input = textfield.getText();
-		System.out.println(input);
+//		System.out.println(textfield.getText());
+		try {
+			PrintWriter writer = new PrintWriter("./search/search.txt", "UTF-8");
+			writer.println(textfield.getText());
+			writer.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		runPy();
+	}
+
+	public void runPy() {
+
+		String s = null;
+//		String python_path = null;
+		//set the python path accordingly
+		try {
+			Process p = Runtime.getRuntime().exec("/Library/Frameworks/Python.framework/Versions/3.7/bin/python3 475.py");
+			BufferedReader stdInput = new BufferedReader(new InputStreamReader(p.getInputStream()));
+			// read the output from the command
+			System.out.println("Here is the standard output of the command:\n");
+			while ((s = stdInput.readLine()) != null) {
+				System.out.println(s);
+			}
+			BufferedReader stdError = new BufferedReader(new InputStreamReader(p.getErrorStream()));
+
+			
+			// read any errors from the attempted command
+			System.out.println("Here is the standard error of the command (if any):\n");
+			while ((s = stdError.readLine()) != null) {
+				System.out.println(s);
+			}
+
+		} catch (IOException e) {
+			System.out.println("exception happened - here's what I know: ");
+			e.printStackTrace();
+			System.exit(-1);
+		}
 	}
 
 	@FXML
-	private void handleImport() {
+	private void handleImport() throws FileNotFoundException {
 		Stage stage = new Stage();
 		FileChooser fileChooser = new FileChooser();
 		fileChooser.setTitle("Open Resource File");
 		File file = fileChooser.showOpenDialog(stage);
-		System.out.println(file.toString());
-		
-//		JFileChooser chooser = new JFileChooser();
-//		FileNameExtensionFilter filter = new FileNameExtensionFilter("JPG & GIF Images", "bib");
-//		chooser.setFileFilter(filter);
-//		int returnVal = chooser.showOpenDialog(null);
-//		if (returnVal == JFileChooser.APPROVE_OPTION) {
-//			System.out.println("You chose to open this file: " + chooser.getSelectedFile().getName());
-//		}
-	
+		// copy the select file in to a create file
+		File source = null;
+		try {
+			source = new File(file.getPath());
+		} catch (Exception e) {
+			// continue
+			// didn't choose file
+		}
+		String source_name = source.getName();
+		File dest = new File(System.getProperty("user.dir") + "/bib_collect/" + source_name);
+
+		try {
+			Files.copy(source.toPath(), dest.toPath());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
+
+	private static void copyFileUsingStream(File source, File dest) throws IOException {
+		InputStream is = null;
+		OutputStream os = null;
+		try {
+			is = new FileInputStream(source);
+			os = new FileOutputStream(dest);
+			byte[] buffer = new byte[1024];
+			int length;
+			while ((length = is.read(buffer)) > 0) {
+				os.write(buffer, 0, length);
+			}
+		} finally {
+			is.close();
+			os.close();
+		}
+	}
+
 }
