@@ -185,7 +185,7 @@ def calScore(bdata):
 
 #-----------------------------main---------------------------------------
 
-work_dir = 'bib/'
+work_dir = 'bib_collect/'
 print('loading data...')
 for parent, dirnames, filenames in os.walk(work_dir,  followlinks=True):
     for filename in filenames:
